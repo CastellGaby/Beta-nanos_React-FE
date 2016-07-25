@@ -1,5 +1,5 @@
 
-var Note = React.createClass({
+var Id = React.createClass({
     edit: function() {
         alert('editing note'+ document.getElementById('title_input').value);
     },
@@ -8,14 +8,11 @@ var Note = React.createClass({
     },
     render: function() {
         return (
-            <div className="note">
+            <div className="id">
                 <form>
                 <div>
-                    <label>ID Album</label>
-                    <input type="text" id="id_album"/>
+                    <label>id</label>
                 </div>
-                <button type="submit" className="btn btn-primary" onClick={this.edit}>DELETE</button>
-                </form>
             </div>
             );
     }
@@ -23,5 +20,5 @@ var Note = React.createClass({
 React.render(<div>
     <Note/>
     </div>, 
-    document.getElementById('delete'));
+    document.getElementById(''));
 

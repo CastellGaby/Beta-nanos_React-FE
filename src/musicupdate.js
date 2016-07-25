@@ -11,6 +11,10 @@ var Note = React.createClass({
             <div className="note">
                 <form>
                 <div>
+                    <label>ID Album</label>
+                    <input type="text" id="id_album"/>
+                </div>
+                <div>
                     <label>Tittle</label>
                     <input type="text" id="title_input"/>
                 </div>
